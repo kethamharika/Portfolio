@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ---------------------------------------------------------
   // 1. Theme switching using localStorage
   // ---------------------------------------------------------
-  const savedTheme = localStorage.getItem("portfolio-theme") || "light";
+  const savedTheme = localStorage.getItem("portfolio-theme") || "dark";
   body.dataset.theme = savedTheme;
 
   const updateThemeIcon = () => {
