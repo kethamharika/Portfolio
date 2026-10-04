@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ketham Harika - Personal Portfolio">
+  <title>Ketham Harika Portfolio</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- Navigation -->
+  <header class="site-header sticky-top">
+    <nav class="navbar navbar-expand-lg" aria-label="Primary navigation">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home" aria-label="Ketham Harika home">
+          Ketham Harika<span class="brand-dot">.</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#portfolioNav" aria-controls="portfolioNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="portfolioNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item">
+              <button id="themeToggle" class="theme-btn" type="button"
+                aria-label="Switch to dark mode" title="Toggle theme">
+                <i class="bi bi-moon-stars-fill" aria-hidden="true"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- HOME -->
+    <section id="home" class="hero-section section-padding">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-12 col-lg-7">
+            <p class="eyebrow reveal">B.E. CSE • YOP 2027</p>
+            <h1 class="hero-title reveal">
+              Hi, I'm <span>Ketham Harika.</span>
+            </h1>
+            <h2 class="hero-role reveal">
+              I build <span id="typingText" aria-live="polite">web applications</span><span class="cursor" aria-hidden="true">|</span>
+            </h2>
+            <p class="hero-copy reveal">
+              Computer Science undergraduate with practical exposure to software development,
+              AI/ML, web technologies, databases and building AI-powered applications and intelligent solutions.
+            </p>
+
+            <div class="hero-actions reveal">
+              <a class="btn btn-primary-custom" href="#projects">
+                Explore Projects <i class="bi bi-arrow-down-right" aria-hidden="true"></i>
+              </a>
+              <a class="btn btn-outline-custom" href="assets/KethamHarika_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                View Resume <i class="bi bi-file-earmark-person" aria-hidden="true"></i>
+              </a>
+              <a class="btn btn-outline-custom" href="#contact">
+                Let's Connect <i class="bi bi-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <div class="social-links reveal" aria-label="Social links">
+              <a href="mailto:harikaketham@gmail.com"><i class="bi bi-envelope"></i> Email</a>
+              <a href="https://github.com/kethamharika" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
+              <a href="https://www.linkedin.com/in/ketham-harika-1a26482a5" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-5">
+            <div class="hero-visual reveal" aria-label="Decorative profile graphic">
+              <div class="orbit orbit-one"></div>
+              <div class="orbit orbit-two"></div>
+              <div class="profile-card">
+                <div class="profile-avatar" role="img" aria-label="Ketham Harika initials avatar">KH</div>
+                <p class="profile-name">Ketham Harika</p>
+                <p class="profile-caption">Software • AI/ML • Web</p>
+              </div>
+              <div class="floating-chip chip-code"><i class="bi bi-code-slash"></i> Build</div>
+              <div class="floating-chip chip-ai"><i class="bi bi-cpu"></i> AI + ML</div>
+              <div class="floating-chip chip-data"><i class="bi bi-database"></i> Data</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-grid reveal" aria-label="Portfolio highlights">
+          <div class="stat-item"><strong>8.89</strong><span>CGPA / 10</span></div>
+          <div class="stat-item"><strong>3+</strong><span>Internships</span></div>
+          <div class="stat-item"><strong>3</strong><span>Featured Projects</span></div>
+          <div class="stat-item"><strong>2027</strong><span>Graduation</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 — ABOUT ME</p>
+          <h2>Curious mind. Practical builder.</h2>
+          <p>A profile reflecting my academic background, hands-on development experience and interest in AI-powered applications.</p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          <article class="col-12 col-lg-7 reveal">
+            <div class="content-card h-100">
+              <div class="icon-box"><i class="bi bi-person-workspace"></i></div>
+              <h3>Profile</h3>
+              <p>
+                I am pursuing a B.E. in Computer Science and Engineering at Stanley College of
+                Engineering & Technology for Women. My experience includes software development,
+                AI/ML projects, web application development and building AI-powered applications.
+              </p>
+              <p>
+                I enjoy solving technical problems, building practical web and AI applications, and learning
+                technologies that connect software engineering, data and intelligent systems.
+              </p>
+              <div class="tag-list">
+                <span>Problem Solving</span><span>Web Development</span>
+                <span>Machine Learning</span><span>AI / NLP</span><span>Databases</span>
+              </div>
+            </div>
+          </article>
+
+          <aside class="col-12 col-lg-5 reveal">
+            <div class="content-card highlight-card h-100">
+              <div class="icon-box"><i class="bi bi-lightning-charge"></i></div>
+              <h3>What I bring</h3>
+              <ul class="check-list">
+                <li>Strong academic foundation in CSE.</li>
+                <li>Hands-on internship experience.</li>
+                <li>Hands-on experience building AI/ML and web applications.</li>
+                <li>Interest in reliable, user-focused solutions.</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section-padding section-soft">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 — EDUCATION</p>
+          <h2>Academic journey</h2>
+          <p>My educational background and academic performance.</p>
+        </div>
+
+        <div class="table-responsive custom-table-wrap reveal">
+          <table class="table align-middle mb-0">
+            <caption class="visually-hidden">Ketham Harika educational qualifications</caption>
+            <thead>
+              <tr>
+                <th>Qualification</th>
+                <th>Institution</th>
+                <th>Year</th>
+                <th>Performance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>B.E.</strong><br>Computer Science & Engineering</td>
+                <td>Stanley College of Engineering & Technology for Women</td>
+                <td>2023–2027</td>
+                <td><span class="score-badge">8.89 CGPA</span></td>
+              </tr>
+              <tr>
+                <td><strong>Intermediate</strong><br>MPC</td>
+                <td>Narayana Junior College</td>
+                <td>2021–2023</td>
+                <td><span class="score-badge">89.8%</span></td>
+              </tr>
+              <tr>
+                <td><strong>SSC</strong></td>
+                <td>Shraddha-The School</td>
+                <td>2020–2021</td>
+                <td><span class="score-badge">10 CGPA</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section-padding">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 — TECHNICAL SKILLS</p>
+          <h2>Tools I work with</h2>
+          <p>Click a category to filter the skill cards.</p>
+        </div>
+
+        <div class="filter-bar reveal" role="group" aria-label="Filter technical skills">
+          <button class="filter-btn active" data-skill-filter="all">All</button>
+          <button class="filter-btn" data-skill-filter="programming">Programming</button>
+          <button class="filter-btn" data-skill-filter="web">Web</button>
+          <button class="filter-btn" data-skill-filter="ai">AI & Data</button>
+          <button class="filter-btn" data-skill-filter="core">Core CS</button>
+          <button class="filter-btn" data-skill-filter="tools">Tools</button>
+        </div>
+
+        <div class="row g-3" id="skillsGrid">
+          <div class="col-12 col-md-6 col-lg-4 skill-item reveal" data-skill="programming">
+            <div class="skill-card"><i class="bi bi-terminal"></i><h3>Programming</h3><p>Python, Java, C</p></div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 skill-item reveal" data-skill="core">
+            <div class="skill-card"><i class="bi bi-diagram-3"></i><h3>Core CS</h3><p>Data Structures & Algorithms, OOP, DBMS</p></div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 skill-item reveal" data-skill="web">
+            <div class="skill-card"><i class="bi bi-window-stack"></i><h3>Web</h3><p>HTML, CSS, JavaScript</p></div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 skill-item reveal" data-skill="ai">
+            <div class="skill-card"><i class="bi bi-robot"></i><h3>AI & Data</h3><p>Machine Learning, NLP, NumPy, Pandas, Scikit-learn</p></div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 skill-item reveal" data-skill="tools">
+            <div class="skill-card"><i class="bi bi-database"></i><h3>Databases</h3><p>MySQL, SQL</p></div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 skill-item reveal" data-skill="tools">
+            <div class="skill-card"><i class="bi bi-git"></i><h3>Tools</h3><p>Git, GitHub, VS Code</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section-padding section-soft">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">04 — PROJECTS</p>
+          <h2>Selected work</h2>
+          <p>Projects demonstrating software, web and machine learning skills.</p>
+        </div>
+
+        <div class="filter-bar reveal" role="group" aria-label="Filter projects">
+          <button class="filter-btn project-filter active" data-project-filter="all">All</button>
+          <button class="filter-btn project-filter" data-project-filter="ml">Machine Learning</button>
+          <button class="filter-btn project-filter" data-project-filter="web">Web Application</button>
+        </div>
+
+        <div class="row g-4" id="projectsGrid">
+          <article class="col-12 col-lg-4 project-item reveal" data-project="ml">
+            <div class="project-card h-100">
+              <div class="project-number">01</div>
+              <div class="project-icon"><i class="bi bi-newspaper"></i></div>
+              <span class="project-type">Machine Learning</span>
+              <h3>Fake News Detector</h3>
+              <p>Built an NLP and LSTM-based system to classify news articles using preprocessing, vectorization and model training.</p>
+              <div class="tag-list"><span>Python</span><span>NLP</span><span>LSTM</span></div>
+            </div>
+          </article>
+
+          <article class="col-12 col-lg-4 project-item reveal" data-project="web">
+            <div class="project-card h-100">
+              <div class="project-number">02</div>
+              <div class="project-icon"><i class="bi bi-code-square"></i></div>
+              <span class="project-type">Interactive Web Application</span>
+              <h3>Skill Forge</h3>
+              <p>Developed an interactive coding platform featuring coding challenges, interview simulations and leaderboards.</p>
+              <div class="tag-list"><span>Web</span><span>JavaScript</span><span>UI</span></div>
+            </div>
+          </article>
+
+          <article class="col-12 col-lg-4 project-item reveal" data-project="web">
+            <div class="project-card h-100">
+              <div class="project-number">03</div>
+              <div class="project-icon"><i class="bi bi-building"></i></div>
+              <span class="project-type">Full-Stack Web Application</span>
+              <h3>PG Life</h3>
+              <p>Created a responsive application for searching and booking PG accommodations with authentication and database integration.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>MySQL</span></div>
+            </div>
+          </article>
+        </div>
+
+        <div id="projectEmpty" class="empty-state" hidden>No projects match this filter.</div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section-padding">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">05 — EXPERIENCE</p>
+          <h2>Internship experience</h2>
+          <p>Practical exposure across software development, ML and AI.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span>April 2026 – June 2026</span>
+              <h3>Software Development Intern</h3>
+              <h4>Purview Services</h4>
+              <p>Contributed to an AI-powered Loan Recovery Agent using React, FastAPI and Python. Worked on AI application development, sentiment analysis, intent detection, risk scoring and recommendation features.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span>May 2025 – June 2025</span>
+              <h3>Summer Intern (ML & DL)</h3>
+              <h4>SCETW</h4>
+              <p>Performed data preprocessing and feature extraction for a fake news detection project and assisted with model training and evaluation.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span>June 2025 – July 2025</span>
+              <h3>AI & ML Intern</h3>
+              <h4>AICTE Edunet Foundation</h4>
+              <p>Developed a machine learning application for water quality prediction using Python, feature selection and model evaluation.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section-padding section-soft">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">06 — ACHIEVEMENTS & CERTIFICATIONS</p>
+          <h2>Continuous learning</h2>
+          <p>Certifications supporting my technical learning journey.</p>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-3 reveal"><div class="cert-card"><i class="bi bi-award"></i><h3>NPTEL</h3><p>Java Programming</p></div></div>
+          <div class="col-12 col-md-6 col-lg-3 reveal"><div class="cert-card"><i class="bi bi-code-slash"></i><h3>Internshala</h3><p>Web Development</p></div></div>
+          <div class="col-12 col-md-6 col-lg-3 reveal"><div class="cert-card"><i class="bi bi-braces"></i><h3>Infosys Springboard</h3><p>CSS & JavaScript</p></div></div>
+          <div class="col-12 col-md-6 col-lg-3 reveal"><div class="cert-card"><i class="bi bi-python"></i><h3>Udemy</h3><p>Python</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section-padding contact-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">07 — CONTACT</p>
+          <h2>Let's connect.</h2>
+          <p>Have an opportunity, project idea or question? Send a message.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-12 col-lg-5 reveal">
+            <div class="contact-info-card h-100">
+              <h3>Contact information</h3>
+              <div class="contact-line"><i class="bi bi-envelope"></i><a href="mailto:harikaketham@gmail.com">kethamharika90@gmail.com</a></div>
+              <div class="contact-line"><i class="bi bi-geo-alt"></i><span>Hyderabad, India</span></div>
+              <div class="contact-line"><i class="bi bi-linkedin"></i><a href="https://www.linkedin.com/in/ketham-harika-1a26482a5" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener">linkedin.com/in/kethamharika</a></div>
+              <div class="contact-line"><i class="bi bi-github"></i><a href="https://github.com/kethamharika" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener">github.com/kethamharika</a></div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-7 reveal">
+            <form id="contactForm" class="contact-form needs-validation" novalidate>
+              <div id="formMessage" class="alert d-none" role="alert" aria-live="polite"></div>
+
+              <div class="row g-3">
+                <div class="col-12 col-md-6">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" required minlength="2">
+                  <div class="invalid-feedback">Please enter at least 2 characters.</div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class="col-12">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input type="text" class="form-control" id="subject" name="subject" required minlength="3">
+                  <div class="invalid-feedback">Please enter a subject.</div>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5" required minlength="10"></textarea>
+                  <div class="invalid-feedback">Please enter at least 10 characters.</div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary-custom w-100" type="submit">
+                    Send Message <i class="bi bi-send" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+<footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+      <span>© 2026 Ketham Harika. Built with HTML5, CSS3, Bootstrap & JavaScript.</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
